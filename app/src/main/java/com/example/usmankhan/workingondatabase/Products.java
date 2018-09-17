@@ -1,15 +1,15 @@
 package com.example.usmankhan.workingondatabase;
 
-public class Product {
+public class Products {
     private int _id;
     private String _productname;
 
-    public Product()
+    public Products()
     {
 
     }
 
-    public Product(String productname) {
+    public Products(String productname) {
         this._productname = productname;
     }
 
